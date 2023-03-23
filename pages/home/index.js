@@ -1,7 +1,7 @@
 import ConspiratorList from "@/components/ConspiratorList";
 import homeStyle from "./Home.module.scss";
 
-export default function Home() {
+export default function Home({ conspirators }) {
   return (
     <>
       <div className={homeStyle.hero}>
@@ -18,7 +18,7 @@ export default function Home() {
         </p>
 
         <h3 className={"mt-5 " + homeStyle.title}>Co-Conspirators</h3>
-        <ConspiratorList />
+        <ConspiratorList conspirators={conspirators} />
       </div>
     </>
   );
