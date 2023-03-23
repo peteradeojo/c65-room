@@ -15,7 +15,7 @@ const Conspirator = ({ name, image, link, thumbnail, description }) => {
       <div className={style.name}>
         <p>{name}</p>
       </div>
-    </div>.
+    </div>
 
     {modalDisplay !== undefined ? <Modal modalDisplay={modalDisplay} setModalDisplay={setModalDisplay} /> : null}
   </>

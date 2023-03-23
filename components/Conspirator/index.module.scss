@@ -1,3 +1,5 @@
+$color: rgb(6, 3, 30);
+
 .badge {
   width: 45%;
   display: flex;
@@ -5,6 +7,8 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 1.5rem;
+  margin: 6px;
+  border-radius: 24px;
 
   .img {
     width: 125px;
@@ -19,7 +23,7 @@
     font-style: normal;
     font-size: 1.1rem;
     line-height: 29px;
-    color: #000000;
+    color: #fff;
     text-align: center;
   }
 }
