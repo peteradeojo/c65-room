@@ -1,0 +1,46 @@
+.hero {
+  background-image: url('/curv1.svg');
+  background-attachment: scroll, local;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 100%;
+  min-height: 300px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  color: #fff;
+  padding: 16px;
+
+  p {
+    margin-top: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    max-width: 70%;
+
+    span {
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 77px;
+      color: #78F894;
+    }
+  }
+
+  z-index: -1;
+}
+
+.body {
+  .title {
+    font-family: 'IM FELL DW Pica SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    width: 100%;
+    text-align: center;
+  }
+
+  margin-top: 20rem;
+}
